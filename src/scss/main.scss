@@ -1,0 +1,21 @@
+// What up tho
+
+@import "normalize";
+@include normalize();
+
+$red: tomato;
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: $red;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
